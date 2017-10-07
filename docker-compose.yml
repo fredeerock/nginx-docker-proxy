@@ -1,0 +1,12 @@
+version: "3"
+services:
+    client:
+        build: client
+    server1:
+        build: server1
+    server2:
+        build: server2
+    proxy:
+        build: proxy
+ 
+
