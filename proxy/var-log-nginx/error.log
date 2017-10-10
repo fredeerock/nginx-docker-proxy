@@ -1,0 +1,7 @@
+2017/10/09 23:47:51 [notice] 31#31: signal process started
+2017/10/10 18:54:07 [emerg] 107#107: duplicate upstream "server1" in /etc/nginx/conf.d/dig.lsu.edu.conf:5
+2017/10/10 18:54:18 [emerg] 108#108: unknown directive "listen:" in /etc/nginx/conf.d/dig.lsu.edu.conf:10
+2017/10/10 18:54:29 [emerg] 109#109: unknown directive "server_name:" in /etc/nginx/conf.d/dig.lsu.edu.conf:11
+2017/10/10 18:54:46 [notice] 110#110: signal process started
+2017/10/10 21:48:03 [notice] 117#117: signal process started
+2017/10/10 21:56:52 [notice] 135#135: signal process started
