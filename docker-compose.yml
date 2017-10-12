@@ -7,11 +7,13 @@ services:
   proxy:
     build: proxy
     volumes: 
-      - ./proxy/var-www-html:/var/www/html
+      - ./proxy/var-www:/var/www
       - ./proxy/etc-nginx-conf.d:/etc/nginx/conf.d
       - ./proxy/var-log-nginx:/var/log/nginx
       - ./proxy/etc-nginx-certs:/etc/nginx/certs
       # - ./proxy/etc-nginx-sites-enabled:/etc/nginx/sites-enabled
+    ports: 
+      - "80:80"
 
 # volumes:
 #   proxy:

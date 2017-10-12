@@ -5,3 +5,21 @@
 2017/10/10 18:54:46 [notice] 110#110: signal process started
 2017/10/10 21:48:03 [notice] 117#117: signal process started
 2017/10/10 21:56:52 [notice] 135#135: signal process started
+2017/10/10 22:29:42 [error] 6#6: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2017/10/11 01:27:00 [error] 7#7: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2017/10/11 02:58:11 [error] 7#7: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2017/10/11 02:58:12 [error] 7#7: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2017/10/11 02:58:12 [error] 7#7: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2017/10/11 03:06:27 [notice] 22#22: signal process started
+2017/10/11 03:06:44 [notice] 27#27: signal process started
+2017/10/11 03:06:59 [notice] 32#32: signal process started
+2017/10/11 03:07:14 [notice] 37#37: signal process started
+2017/10/11 03:07:37 [error] 40#40: *10 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/10/11 03:07:38 [error] 40#40: *10 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/10/11 03:07:52 [error] 40#40: *10 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/10/11 03:08:02 [notice] 42#42: signal process started
+2017/10/11 03:11:43 [notice] 47#47: signal process started
+2017/10/11 16:22:23 [notice] 52#52: signal process started
+2017/10/11 16:22:35 [error] 53#53: *13 open() "/var/www/html/icons/ubuntu-logo.png" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /icons/ubuntu-logo.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/server1"
+2017/10/11 16:22:54 [error] 53#53: *13 open() "/var/www/html/icons/ubuntu-logo.png" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /icons/ubuntu-logo.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/server2"
+2017/10/11 16:22:57 [error] 53#53: *13 open() "/var/www/html/server3" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /server3 HTTP/1.1", host: "127.0.0.1"
