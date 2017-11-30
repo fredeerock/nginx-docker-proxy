@@ -7,7 +7,6 @@ services:
   proxy:
     image: nginx
     volumes:
-      - ./proxy/var/www:/var/www
       - ./proxy/etc/nginx/conf.d:/etc/nginx/conf.d
       - ./proxy/var/log/nginx:/var/log/nginx
       - ./proxy/etc/nginx/certs:/etc/nginx/certs
