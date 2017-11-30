@@ -1,19 +1,15 @@
 version: "3.2"
 services:
   server1:
-    build: server1
+    image: httpd:2.4
   server2:
-    build: server2
+    image: httpd:2.4
   proxy:
-    build: proxy
-    volumes: 
+    image: nginx
+    volumes:
       - ./proxy/var/www:/var/www
       - ./proxy/etc/nginx/conf.d:/etc/nginx/conf.d
       - ./proxy/var/log/nginx:/var/log/nginx
       - ./proxy/etc/nginx/certs:/etc/nginx/certs
-      # - ./proxy/etc/nginx/sites-enabled:/etc/nginx/sites-enabled
-    ports: 
-      - "8080:80"
-
- 
-
+    ports:
+    - "8080:80" 
