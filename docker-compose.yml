@@ -1,9 +1,9 @@
 version: "3.2"
 services:
-  # server1:
-  #   image: httpd:2.4
-  # server2:
-  #   image: httpd:2.4
+  server1:
+    image: httpd:2.4
+  server2:
+    image: httpd:2.4
   proxy:
     image: nginx
     volumes:
